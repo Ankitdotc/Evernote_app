@@ -3,6 +3,7 @@ import SidebarComponent from './sidebar/sidebar';
 import EditorComponent from './editor/editor';
 import './App.css';
 
+
 const firebase = require('firebase');
 
 class App extends React.Component {
@@ -19,8 +20,8 @@ class App extends React.Component {
   render() {
     return(
       <div className="app-container">
-        <h2><strong>EVERNOTE </strong></h2>
-        <h3><small>make note making simple!</small></h3>
+        {/* <h2><strong>   EVERNOTE   </strong></h2> */}
+        <h3><small>    make note making simple!   </small></h3>
         <SidebarComponent 
           selectedNoteIndex={this.state.selectedNoteIndex}
           notes={this.state.notes}
@@ -38,6 +39,7 @@ class App extends React.Component {
       </div>
     );
   }
+    
 
   componentDidMount = () => {
     firebase
