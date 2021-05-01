@@ -6,9 +6,11 @@ html, body {
   padding: 0;
   overflow: hidden;
 }
+
 #evernote-container {
   height: 100%;
   box-sizing: border-box;
+  background-color: #FEE2E2;
 }
 .app-container {
   height: 100%;
