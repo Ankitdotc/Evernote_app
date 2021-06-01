@@ -1,4 +1,3 @@
-
 import React from 'react'
 import './App.css';
 import firebase from "firebase";
@@ -38,7 +37,7 @@ class App extends React.Component {
     render(){
     return(
       <div className="app-container">
-         <h3><small>    make note making simple!   </small></h3>
+         <h3><small> <b>  make note making simple!  </b>  </small></h3>
         <SidebarComponent 
           selectedNoteIndex={this.state.selectedNoteIndex} 
           notes={this.state.notes}

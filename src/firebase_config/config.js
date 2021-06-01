@@ -2,16 +2,16 @@ import firebase from "firebase";
 import "firebase/firestore";
 import "firebase/auth";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyA0Sm_r4C7pCikKM0zsET-0OPXJCI8QW2U",
-  authDomain: "evermemo-ddcb2.firebaseapp.com",
-  projectId: "evermemo-ddcb2",
-  storageBucket: "evermemo-ddcb2.appspot.com",
-  messagingSenderId: "935371223048",
-  appId: "1:935371223048:web:fb13600a5a4ed96585a1bd"
-};
 
+var firebaseConfig = {
+  apiKey: "AIzaSyAt0C7_kfaJvcqUviAsnY7WtHE5ONseK64",
+  authDomain: "evernote-clone-1367f.firebaseapp.com",
+  projectId: "evernote-clone-1367f",
+  storageBucket: "evernote-clone-1367f.appspot.com",
+  messagingSenderId: "675892606738",
+  appId: "1:675892606738:web:f7fdd56642f8babead65cb"
+};
+// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-// const database = firebase.firestore();
 
 export default firebaseConfig;
